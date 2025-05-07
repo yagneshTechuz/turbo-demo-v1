@@ -8,6 +8,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "migrate:latest": "turbo run migrate:latest",
+    "make:seed": "turbo run make:seed",
     "migrate:rollback": "knex migrate:rollback"
     
   },

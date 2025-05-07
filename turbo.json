@@ -23,6 +23,10 @@
     "migrate:latest": {
       "persistent": false,
       "cache": false
+    },
+    "make:seed": {
+      "persistent": false,
+      "cache": false
     }
   }
 }

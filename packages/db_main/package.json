@@ -6,7 +6,7 @@
     "dev": "tsc --watch",
     "build": "tsc",
     "migrate:latest": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' knex migrate:latest --knexfile=./src/knexfile.ts",
-    "make-seed": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' knex seed:make --knexfile=./src/knexfile.ts",
+    "make:seed": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' knex seed:run --knexfile=./src/knexfile.ts",
     "migrate:rollback": "knex migrate:rollback"
   },
   "exports": {
