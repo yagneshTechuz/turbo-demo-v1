@@ -1,0 +1,6 @@
+{
+    "watch": ["src","node_modules/@repo/math/dist","dist"],
+    "ext": "ts,js,json",
+    "exec": "node ./dist/server.js"
+  }
+  
